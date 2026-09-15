@@ -769,3 +769,18 @@ letter-spacing:1.5px;pointer-events:none}
 .graph-controls{flex-direction:column;align-items:stretch;padding:8px 10px}
 .graph-buttons{padding-left:0;border-left:none;width:100%;justify-content:flex-end}
 }
+
+/* ===== 索引页右侧面板 ===== */
+.idx-stats{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:6px}
+.idx-stat{background:var(--cream);border:1px solid var(--border);border-radius:8px;padding:10px 4px;text-align:center}
+.idx-stat b{display:block;font-family:var(--serif);font-size:20px;color:var(--navy);font-weight:900;line-height:1.2}
+.idx-stat span{font-size:11px;color:var(--text2)}
+.idx-part{font-size:11px;color:var(--gold);font-weight:700;letter-spacing:1px;margin:12px 0 2px}
+.idx-rank-list,.idx-link-row{display:block}
+.idx-row{display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px dashed var(--border)}
+.idx-row:last-child{border-bottom:none}
+.idx-row .bl-source-name{flex:1;min-width:0;font-weight:600}
+.idx-link-row{padding:6px 0;font-size:13px;color:var(--navy);text-decoration:none;border-bottom:1px dashed var(--border)}
+.idx-link-row:last-child{border-bottom:none}
+.idx-link-row:hover{color:var(--gold)}
+.idx-link-row small{color:var(--text2);font-size:11px;margin-left:6px;font-weight:400}
